@@ -63,9 +63,11 @@ class UserService {
             }
         }
     }
+    
     async getAccessToken(req) {
         try {
             const { email, password } = req.body;
+
 
             this.validateDataAccessToken(email, password);
 
@@ -79,7 +81,7 @@ class UserService {
                 email: user_find.email
             }
 
-            const accessToken = jwt.sign({ authUser }, secret.API_SECRET, { expiresIn: "1h" })
+            const accessToken = jwt.sign({ authUser }, secret.API_SECRET, { expiresIn: "1h" });
             return {
                 status: http_status.SUCESS,
                 accessToken
