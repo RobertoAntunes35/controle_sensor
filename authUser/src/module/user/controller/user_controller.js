@@ -8,7 +8,7 @@ class UserController {
     server;
 
     constructor() {
-        this.server = new RabbitmqServer('amqp://admin:admin@rabbitmq:5672');
+        this.server = new RabbitmqServer(status_rabbitmq.URI_RABBIT);
     }
 
     findByEmail = async (req, resp) => {

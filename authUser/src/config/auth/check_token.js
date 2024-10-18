@@ -5,15 +5,17 @@ import AuthException from './auth_exception.js';
 
 import * as secret from '../constant/secret.js';
 import * as http_status from '../constant/http_status.js';
+import * as status_rabbitmq from '../constant/status_rabbitmq.js';
+import RabbitmqServer from '../../rabbitmq-server.js';
 
 export default async (req, resp, next) => {
     try {
         const { authorization } = req.headers;
-
-
-        console.log('authorization');
+        const server = new RabbitmqServer(status_rabbitmq.URI_RABBIT)
+        await server.start();
 
         if (!authorization) {
+            await server.publishInQueueLogs(status_rabbitmq.LOGS, 'SOLICITADO INFORMAÇÃO SEM O TOKEN DE ACESSO.', status_rabbitmq.NA)
             throw new AuthException(http_status.UNAUTHORIZED, 'Access token wat not informed or is wrong')
         }
 
@@ -24,6 +26,7 @@ export default async (req, resp, next) => {
             req.authUser = decoded.authUser;
             return next();
         } catch (err) {
+            await server.publishInQueueLogs(status_rabbitmq.LOGS, 'TOKEN INVALIDO', 401)
             console.error('Error verifying JWT: ', err.message)
             resp.status(401).json({
                 status: 401,
