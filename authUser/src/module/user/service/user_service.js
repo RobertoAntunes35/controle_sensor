@@ -41,16 +41,18 @@ class UserService {
     async findByName(req) {
         try {
             const { name } = req.params;
+            const { authUser } = req
             this.validateRequestDataName(name);
 
-            let find_user = await UserRepository.findByName(name);
-            this.validateRequestDataUser(find_user);
+            let user_find = await UserRepository.findByName(name);
+            this.validateRequestDataUser(user_find);
+            this.validateAuthUser(user_find, authUser);
 
             return {
                 status: http_status.SUCESS,
                 user: {
-                    id: find_user.id,
-                    name: find_user.name
+                    id: user_find.id,
+                    name: user_find.name
                 }
             }
         } catch (error) {
@@ -89,13 +91,6 @@ class UserService {
             }
         }
     }
-
-
-
-
-
-
-
 
     // funções complementares
     validateAuthUser(user, authUser) {
