@@ -1,0 +1,8 @@
+flask
+requests 
+numpy 
+pandas 
+python-dotenv
+paho-mqtt
+pika
+flask-sqlalchemy
