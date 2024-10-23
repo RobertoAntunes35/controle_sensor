@@ -5,4 +5,9 @@ pandas
 python-dotenv
 paho-mqtt
 pika
+flask
 flask-sqlalchemy
+eventlet
+Flask-MQTT
+Flask-SocketIO
+mysqlclient
