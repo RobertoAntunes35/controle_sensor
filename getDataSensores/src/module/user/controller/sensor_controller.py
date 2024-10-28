@@ -25,23 +25,20 @@ class SensorController:
     def insertDataTemperatura(self, req):
         
         if self.type == 'mqtt':
-            
+
             self.status = True
 
         if self.status:
+            
             data = None
             try:
             
                 if self.type == 'mqtt':
-                    data = json.loads(req)
-                    print('DATA ====>', type(data))
-                    
+                    data = req
                     
                 elif self.type == 'http':
                     data = json.loads(req.data)
                 
-                # valida a informação com um serializer
-                print('DATA ====>', type(data))
                 return self.Repository.insertDataTemperatura(codigo=data['codigo'], name=data['name'], value=data['value'])
             except Exception as ex:
                 return ResposeApi(500, ex, self.__class__.__name__).response('error')

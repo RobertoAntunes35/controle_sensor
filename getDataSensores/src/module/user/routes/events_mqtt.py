@@ -3,6 +3,7 @@ from main import app
 from flask_mqtt import Mqtt
 import json 
 
+from src.module.user.controller.sensor_controller import SensorController
 
 mqtt = Mqtt(app)
 mqtt.init_app(app)
@@ -16,23 +17,30 @@ def handle_connect(client, userdata, flags, rc):
 @mqtt.on_message()
 def handle_message(client, userdata, message):
     try:
-        
-        print(message.topic)
-        # topico sensor de temperatura
-        if message.topic == 'sensores/temperatura':
+        with app.app_context():
             
-            # pega o dado, como um json {"codigo": 1, "name": "sensor_temperatura", "value": 15.10}
-            #response = Controller.insertDataTemperatura(message.payload.decode())
-            print(message.payload)
-            
-            
-            
-            
-        elif message.topic == 'sensores/distancia':
+            Controller = SensorController('mqtt')
+            # topico sensor de temperatura
+            if message.topic == 'sensores/temperatura':
+                
+                # pega o dado, da seguinte forma: codigo,1/name,sensor_temperatura/value,10.00
+                
+                
+                #response = Controller.insertDataTemperatura(message.payload.decode())
+                msg = str(message.payload.decode()).split('/')
+                dicionario = {item.split(",")[0]: item.split(",")[1] for item in msg}
+                
+                Controller.insertDataTemperatura(dicionario)
+                
+                
+                
+                
+                
+            elif message.topic == 'sensores/distancia':
+                pass 
+            # topico sensor de distancia
+                
             pass 
-        # topico sensor de distancia
-            
-        pass 
 
     except:
         pass 
