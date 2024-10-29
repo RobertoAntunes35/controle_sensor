@@ -10,26 +10,23 @@ class SensorRepository:
     
     def insertDataTemperatura(self, codigo: str, name: str, value: float):
         try:
-            
             new_temperatura = Temperatura(codigo=codigo, name=name, value=value, timestamp=self.time)
-            
             db.session.add(new_temperatura)
-            print('chegou aqui', new_temperatura)
-            
-            
             db.session.commit()
             
             if type == 'mqtt':
-                return {
+                
+                responseMqtt = {
                     'status':200,
                     'message':'insert successfully in Temperatura',
                     'class': self.__class__.__name__
                 }
+                print(responseMqtt)
+                return responseMqtt
 
             return ResposeApi(200, "insert successfully in Temperatura").response('status')
 
         except Exception as ex:
-            print('Error: ', ex)
             if type == 'mqtt':
                 return {
                     'error': 500,

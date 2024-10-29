@@ -12,3 +12,4 @@ Flask-MQTT
 Flask-SocketIO
 mysqlclient
 pyjwt
+pydantic

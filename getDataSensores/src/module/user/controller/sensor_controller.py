@@ -23,19 +23,18 @@ class SensorController:
         
         
     def insertDataTemperatura(self, req):
-        
         if self.type == 'mqtt':
-
             self.status = True
 
         if self.status:
-            
             data = None
             try:
-            
+        
+                # para requisição através do mqtt
                 if self.type == 'mqtt':
                     data = req
                     
+                # para requisição http
                 elif self.type == 'http':
                     data = json.loads(req.data)
                 

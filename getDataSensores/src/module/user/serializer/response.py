@@ -7,20 +7,23 @@ class ResposeApi:
         self.status = status
         self.message = str(message)
         self.classe = classe
+        
     def response(self, message):
-        return jsonify({
+        messageReturn = {
             message:self.status,
             'message':self.message,
             'class': self.classe
-        }), self.status
+        }
         
+        print(messageReturn)
+        return jsonify(messageReturn), self.status
+
     def response_data(self, data):
-        print(type(self.message))
         response_body = {
             'class': self.classe,
             'status': self.status,
             'data': data,
 
         }
-        
+        print(response_body)
         return jsonify(response_body)
