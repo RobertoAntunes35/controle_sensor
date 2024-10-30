@@ -1,11 +1,10 @@
-FROM node:20
+FROM node:20.18.0
 
-WORKDIR .
+WORKDIR /app
 
-COPY package*.json ./
-
+COPY package.json package-lock.json ./
 RUN npm install
 
 COPY . .
 
-CMD [ "node", "app.js" ]
+CMD ["node", "app.js"]  # Substitua pelo seu arquivo de entrada

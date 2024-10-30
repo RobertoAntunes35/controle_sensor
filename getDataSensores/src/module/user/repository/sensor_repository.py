@@ -81,7 +81,6 @@ class SensorRepository:
         try:
             all_data_distancia = db.session.query(Distancia).all()
             listDistancia = [value.to_dict() for value in all_data_distancia]
-            
             return ResposeApi(200, None, self.__class__.__name__).response_data(listDistancia)
         except Exception as ex:
             return ResposeApi(500, ex, self.__class__.__name__).response('error')

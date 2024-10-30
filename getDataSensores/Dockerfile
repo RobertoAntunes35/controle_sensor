@@ -1,15 +1,19 @@
-FROM python:3.12.3
+# Usamos uma imagem base oficial do Python
+FROM python:3.12-slim
 
-WORKDIR .
+
+# Instalamos o mysqlclient
+RUN pip install mysqlclient
 
 COPY requirements.txt requirements.txt
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
-COPY . .
+# Copiamos o código da aplicação para o container
+COPY . /app
 
-ENV FLASK_APP=main.py
+# Definimos o diretório de trabalho
+WORKDIR /app
 
-EXPOSE 5000
-
-CMD [ "flask", "run"]
+# Exemplo de comando para executar a aplicação
+CMD ["python", "main.py"]

@@ -1,4 +1,3 @@
-flask
 requests 
 numpy 
 pandas 
@@ -10,6 +9,5 @@ flask-sqlalchemy
 eventlet
 Flask-MQTT
 Flask-SocketIO
-mysqlclient
 pyjwt
 pydantic

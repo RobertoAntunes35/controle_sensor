@@ -13,7 +13,7 @@ class Middleware:
     def __init__(self):
         self.request = request
             
-    def constructor(self) -> json:
+    def __constructor(self) -> json:
         try:
             self.authorization = self.request.headers.get('Authorization')
             self.token = self.authorization.split(" ")[1]
@@ -28,8 +28,12 @@ class Middleware:
         except Exception:
             return ResposeApi(500, "Token não encontrado ou invalido.").response('error'), False
     
+    
+    
     def check_if_user_login(self) -> bool:
         """Verifica se os dados do usuário esta no rabbitmq"""
         # consulta ao broker
-        return self.constructor()
+        return self.__constructor()
+    
+    
  
