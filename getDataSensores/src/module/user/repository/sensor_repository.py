@@ -13,21 +13,19 @@ class SensorRepository:
             new_temperatura = Temperatura(codigo=codigo, name=name, value=value, timestamp=self.time)
             db.session.add(new_temperatura)
             db.session.commit()
-            
-            if type == 'mqtt':
+            if self.type == 'mqtt':
                 
                 responseMqtt = {
                     'status':200,
                     'message':'insert successfully in Temperatura',
                     'class': self.__class__.__name__
                 }
-                print(responseMqtt)
                 return responseMqtt
 
             return ResposeApi(200, "insert successfully in Temperatura").response('status')
 
         except Exception as ex:
-            if type == 'mqtt':
+            if self.type == 'mqtt':
                 return {
                     'error': 500,
                     'message': str(ex),
@@ -45,12 +43,13 @@ class SensorRepository:
             db.session.add(new_temperatura)
             db.session.commit()
             
-            if type == 'mqtt':
-                return {
+            if self.type == 'mqtt':
+                
+                return dict({
                     'status':200,
                     'message':'insert successfully in Temperatura',
                     'class': self.__class__.__name__
-                }
+                })
             return ResposeApi(200, "insert successfully in Distancia").response('status')
         except Exception as ex:
             if type == 'mqtt':

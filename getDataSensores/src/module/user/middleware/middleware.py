@@ -13,7 +13,7 @@ class Middleware:
     def __init__(self):
         self.request = request
             
-    def __constructor(self) -> json:
+    def constructor(self) -> json:
         try:
             self.authorization = self.request.headers.get('Authorization')
             self.token = self.authorization.split(" ")[1]
@@ -33,7 +33,7 @@ class Middleware:
     def check_if_user_login(self) -> bool:
         """Verifica se os dados do usuário esta no rabbitmq"""
         # consulta ao broker
-        return self.__constructor()
+        return self.constructor()
     
     
  

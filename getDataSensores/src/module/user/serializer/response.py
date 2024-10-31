@@ -19,7 +19,7 @@ class ResposeApi:
             'message':self.message,
             'class': self.classe
         }
-        
+        print('CHEGOU')
         self.Rabbitmq_server.publishInQueueLogs(f'Informação gerada pela classe ResponseApi.response(). Message: {self.message}', const_rabbit.LOGS, self.status)
         print(messageReturn)
         return jsonify(messageReturn), self.status

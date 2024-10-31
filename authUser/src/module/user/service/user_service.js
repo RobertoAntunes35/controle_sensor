@@ -81,7 +81,7 @@ class UserService {
                 email: user_find.email
             }
 
-            const accessToken = jwt.sign({ authUser }, secret.API_SECRET, { expiresIn: "1h" });
+            const accessToken = jwt.sign({ authUser }, secret.API_SECRET, { expiresIn: "12h" });
             return {
                 status: http_status.SUCESS,
                 accessToken
