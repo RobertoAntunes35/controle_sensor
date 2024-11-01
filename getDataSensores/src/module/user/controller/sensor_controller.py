@@ -5,8 +5,8 @@ import jwt
 from src.module.user.serializer.response import ResposeApi
 from src.module.user.middleware.middleware import Middleware
 from src.module.user.repository.sensor_repository import SensorRepository
-from src.rabbitmq_server import RabbitMQServer
 import src.config.constant.status_rabbitmq as const_rabbit
+from src.rabbitmq import RabbitMQServer
 import json 
 
 
@@ -17,8 +17,8 @@ class SensorController:
         if self.type != 'mqtt':
             self.MiddlewareController = Middleware()
             self.jsonData, self.status = self.MiddlewareController.check_if_user_login()
-    
-        self.Rabbitmq_server = RabbitMQServer(const_rabbit.URI_RABBIT)
+        
+        self.rabbitmq = RabbitMQServer()
         self.Repository = SensorRepository(type)
             
     def insertDataTemperatura(self, req):
@@ -35,34 +35,31 @@ class SensorController:
                 # para requisição http
                 elif self.type == 'http':
                     data = json.loads(req.data)
-                
+
                 # encaminha log para o rabbitmq de inserção de dados no banco
-                self.Rabbitmq_server.publishInQueueLogs(f'Solicitado a inclusão de dados para o sensor de temperatura através do protocolo: {self.type}', const_rabbit.LOGS, const_rabbit.NA)
-                statusResponse = self.Repository.insertDataTemperatura(codigo=data['codigo'], name=data['name'], value=data['value'])
+                self.rabbitmq.publish_message('info', f'Solicitado insercao de dados para TEMPERATURA pelo protocolo {self.type}', const_rabbit.NA)
+                statusResponse, _ = self.Repository.insertDataTemperatura(codigo=data['codigo'], name=data['name'], value=data['value'])
                 
                 if isinstance(statusResponse, dict):
-                    checkResponse = statusResponse['status']
-                    checkMessage = statusResponse['message']
+                    checkResponse = statusResponse.get('status', [])
+                    checkMessage = statusResponse.get('message', [])
                 
                 else:
                     checkResponse = statusResponse.status
                     checkMessage = statusResponse.message
                     
                 
-                if checkResponse == '200 OK' or checkResponse == 200:
-                    message = f'Inclusão realizada com sucesso para o sensor de temperatura através do protocolo: {self.type}'
+                if checkResponse == 200:
+                    message = f'Inclusao realizada com sucesso para o sensor de temperatura atraves do protocolo: {self.type}'
                     
                 else:
-                    message = f'Erro ao realizar a inclusão o sensor de temperatura através do protocolo: {self.type}. Error: {checkMessage}'
-                    
-                self.Rabbitmq_server.publishInQueueLogs(message, const_rabbit.LOGS, checkResponse)
+                    message = f'Erro ao realizar a inclusao o sensor de temperatura atraves do protocolo: {self.type}. Error: {checkMessage}'
                 
+                self.rabbitmq.publish_message('info', message, checkResponse)
                 return statusResponse
             except Exception as ex:
                 return ResposeApi(500, ex, self.__class__.__name__).response('error')
             
-            
-        self.Rabbitmq_server.publishInQueueLogs(f'Solicitado inserção no banco de dados mas, houve erro de autenticação. Error: {self.jsonData.message}', const_rabbit.LOGS, self.jsonData.status)
         return self.jsonData
     
     def insertDataDistancia(self, req):
@@ -79,50 +76,49 @@ class SensorController:
                 # para requisição http
                 elif self.type == 'http':
                     data = json.loads(req.data)
-                
-                # encaminha log para o rabbitmq de inserção de dados no banco
-                self.Rabbitmq_server.publishInQueueLogs(f'Solicitado a inclusão de dados para o sensor de distancia através do protocolo: {self.type}', const_rabbit.LOGS, const_rabbit.NA)
-                statusResponse = self.Repository.insertDataDistancia(codigo=data['codigo'], name=data['name'], value=data['value'])
+
+                self.rabbitmq.publish_message('info', f'Solicitado insercao de dados para DISTANCIA pelo protocolo {self.type}', const_rabbit.NA)        
+                statusResponse, _ = self.Repository.insertDataDistancia(codigo=data['codigo'], name=data['name'], value=data['value'])
                 
                 if isinstance(statusResponse, dict):
-                    checkResponse = statusResponse['status']
-                    checkMessage = statusResponse['message']
+                    checkResponse = statusResponse.get('status', [])
+                    checkMessage = statusResponse.get('message', [])
                 
                 else:
                     checkResponse = statusResponse.status
                     checkMessage = statusResponse.message
                     
                 
-                if checkResponse == '200 OK' or checkResponse == 200:
-                    message = f'Inclusão realizada com sucesso para o sensor de distancia através do protocolo: {self.type}'
+                if checkResponse == 200:
+                    message = f'Inclusao realizada com sucesso para o sensor de distancia atraves do protocolo: {self.type}'
                     
                 else:
-                    message = f'Erro ao realizar a inclusão o sensor de distancia através do protocolo: {self.type}. Error: {checkMessage}'
+                    message = f'Erro ao realizar a inclusao o sensor de distancia através do protocolo: {self.type}. Error: {checkMessage}'
                     
-                self.Rabbitmq_server.publishInQueueLogs(message, const_rabbit.LOGS, checkResponse)
+                self.rabbitmq.publish_message('info', message, checkResponse)
                 
                 return statusResponse
             except Exception as ex:
                 return ResposeApi(500, ex, self.__class__.__name__).response('error')
             
             
-        self.Rabbitmq_server.publishInQueueLogs(f'Solicitado inserção no banco de dados mas, houve erro de autenticação. Error: {self.jsonData.message}', const_rabbit.LOGS, self.jsonData.status)
         return self.jsonData
     
     def getAllDataTemperatura(self):
         if self.status:
             try:
-                self.Rabbitmq_server.publishInQueueLogs(f'Solicitado a visualização dos dados para o sensor de temperatura', const_rabbit.LOGS, const_rabbit.NA)
-                statusResponse = self.Repository.getAllDataTemperatura()
+                
+                self.rabbitmq.publish_message('info', 'Solicitado leitura dos dados de temperatura', const_rabbit.NA)        
+                statusResponse, _ = self.Repository.getAllDataTemperatura()
                 
                 message = None 
-                if statusResponse.status == '200 OK':
-                    message = f'Solicitação realizada com sucesso para dados de Temperatura.'
+                if statusResponse.get('status', []) == 200:
+                    message = f'Solicitacao realizada com sucesso para dados de Temperatura.'
                     
                 else:
-                    message = f'Erro ao realizar a requisição para os dados de distancia. Error: {statusResponse.message}'
-                    
-                self.Rabbitmq_server.publishInQueueLogs(message, const_rabbit.LOGS, statusResponse.status)
+                    message = f'Erro ao realizar a requisicao para os dados de distancia. Error: {statusResponse.get('message', [])}'
+                
+                self.rabbitmq.publish_message('info', message, statusResponse.get('status', []))        
                 
                 return statusResponse
             except Exception as ex:
@@ -132,17 +128,18 @@ class SensorController:
     def getAllDataDistancia(self):
         if self.status:
             try:
-                self.Rabbitmq_server.publishInQueueLogs(f'Solicitado a visualização dos dados para o sensor de temperatura', const_rabbit.LOGS, const_rabbit.NA)
-                statusResponse = self.Repository.getAllDataDistancia()
-                message = None 
+                self.rabbitmq.publish_message('info', 'Solicitado leitura dos dados de distancia', const_rabbit.NA)        
                 
-                if statusResponse.status == '200 OK':
-                    message = f'Solicitação realizada com sucesso para dados de distancia.'
+                statusResponse, _ = self.Repository.getAllDataDistancia()
+                
+                if statusResponse.get('status', []) == 200:
+                    message = f'Solicitacao realizada com sucesso para dados de distancia.'
                     
                 else:
-                    message = f'Erro ao realizar a requisição para os dados de distancia. Error: {statusResponse.message}'
+                    message = f'Erro ao realizar a requisicao para os dados de distancia. Error: {statusResponse.get('message', [])}'
                     
-                self.Rabbitmq_server.publishInQueueLogs(message, const_rabbit.LOGS, statusResponse.status)
+                self.rabbitmq.publish_message('info', message, statusResponse.get('status', []))        
+                                
                 return statusResponse
             except Exception as ex:
                 return ResposeApi(500, ex, self.__class__.__name__).response('error')

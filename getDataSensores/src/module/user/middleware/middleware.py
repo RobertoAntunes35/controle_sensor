@@ -19,7 +19,6 @@ class Middleware:
             self.token = self.authorization.split(" ")[1]
             
             decoded_token = jwt.decode(self.token, self.SECRET_KEY, algorithms=["HS256"]) 
-            print(decoded_token)
             return jsonify(decoded_token), True
         except jwt.ExpiredSignatureError:
             return ResposeApi(401, "Token expirado").response('error'), False

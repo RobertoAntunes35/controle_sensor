@@ -15,22 +15,28 @@ class SensorRepository:
             db.session.commit()
             if self.type == 'mqtt':
                 
-                responseMqtt = {
+                response = {
                     'status':200,
-                    'message':'insert successfully in Temperatura',
+                    'message':f'insert successfully in Temperatura by protocol MQTT with ESP32',
                     'class': self.__class__.__name__
-                }
-                return responseMqtt
+                }, 200
+                
+                print(response)
+                return response
 
-            return ResposeApi(200, "insert successfully in Temperatura").response('status')
+            return ResposeApi(200, "insert successfully in Temperatura by protocol HTTP").response('status')
 
         except Exception as ex:
             if self.type == 'mqtt':
-                return {
-                    'error': 500,
-                    'message': str(ex),
+                response =  {
+                    'status':200,
+                    'message':f'erro trying to insert data in database TEMPERATURA by protocol MQTT with ESP32 {ex}',
                     'class': self.__class__.__name__
-                }
+                }, 200
+                
+                print(response)
+                
+                return response
                 
             return ResposeApi(500, ex, self.__class__.__name__).response('error')
         finally:
@@ -44,20 +50,26 @@ class SensorRepository:
             db.session.commit()
             
             if self.type == 'mqtt':
-                
-                return dict({
+                response =  {
                     'status':200,
-                    'message':'insert successfully in Temperatura',
+                    'message':'insert successfully in Distancia by protocol MQTT with ESP32',
                     'class': self.__class__.__name__
-                })
-            return ResposeApi(200, "insert successfully in Distancia").response('status')
+                }, 200
+                
+                print(response)
+                return response
+            return ResposeApi(200, "insert successfully in Distancia by protocol HTTP").response('status')
         except Exception as ex:
             if type == 'mqtt':
-                return {
+                response = {
                     'error': 500,
-                    'message': str(ex),
+                    'message': f'erro trying to insert data in database TEMPERATURA by protocol MQTT with ESP32 {ex}',
                     'class': self.__class__.__name__
-                }
+                }, 500
+                
+                print(response)
+                
+                return response
                 
             return ResposeApi(500, ex, self.__class__.__name__).response('error')
         finally:

@@ -1,7 +1,7 @@
 from flask import jsonify
 import json
 import src.config.constant.status_rabbitmq as const_rabbit
-from src.rabbitmq_server import RabbitMQServer
+from src.rabbitmq import RabbitMQServer
 
 
 class ResposeApi:
@@ -9,9 +9,7 @@ class ResposeApi:
         self.status = status
         self.message = str(message)
         self.classe = classe
-        
-        self.Rabbitmq_server = RabbitMQServer(const_rabbit.URI_RABBIT)
-        
+        self.rabbitmq = RabbitMQServer()
         
     def response(self, message):
         messageReturn = {
@@ -19,10 +17,14 @@ class ResposeApi:
             'message':self.message,
             'class': self.classe
         }
-        print('CHEGOU')
-        self.Rabbitmq_server.publishInQueueLogs(f'Informação gerada pela classe ResponseApi.response(). Message: {self.message}', const_rabbit.LOGS, self.status)
+        if message == 'status':
+            routing_key = 'info'
+        else:
+            routing_key = 'error'
+                
+        self.rabbitmq.publish_message(routing_key, self.message, self.status)
         print(messageReturn)
-        return jsonify(messageReturn), self.status
+        return messageReturn, self.status
 
     def response_data(self, data):
         response_body = {
@@ -30,7 +32,6 @@ class ResposeApi:
             'status': self.status,
             'data': data,
         }
-        self.Rabbitmq_server.publishInQueueLogs(f'Informação gerada pela classe ResponseApi.response_data(). Data: {type(data)}', const_rabbit.LOGS, self.status)
         
         print(response_body)
-        return jsonify(response_body)
+        return response_body, self.status
