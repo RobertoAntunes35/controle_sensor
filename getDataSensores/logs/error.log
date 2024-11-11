@@ -1,0 +1,760 @@
+2024-11-04 21:43:44,021 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:44,024 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:43:44,024 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:43:44,054 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:44,054 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:43:44,055 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:43:48,113 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:48,114 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:43:48,144 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:48,145 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:43:52,210 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:52,210 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:43:52,242 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:52,243 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:43:56,270 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:56,270 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:56,271 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:43:56,271 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:43:56,271 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:43:56,271 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:43:56,881 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:56,881 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:43:56,940 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:43:56,940 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:43:56,941 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:43:56,941 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:00,997 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:00,997 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:01,004 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:01,004 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:01,979 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:01,979 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:02,011 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:02,011 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:05,493 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:05,493 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:05,493 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:05,493 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:06,598 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:06,598 - ERROR - Erro ao conectar ao RabbitMQ: 
+2024-11-04 21:44:06,598 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:06,598 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,008 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,008 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,008 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,015 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,015 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,015 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,017 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,017 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,017 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,038 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,038 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,038 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,039 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,039 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,039 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,040 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,040 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,040 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,107 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,107 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,107 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,113 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,113 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,113 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,122 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,122 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,122 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,122 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,122 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,122 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,169 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,169 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,169 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,170 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,170 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,170 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,183 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,183 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,183 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,183 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,183 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,183 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,281 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,281 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,281 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,281 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,284 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,284 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,284 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,284 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,285 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,285 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,285 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,285 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,341 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,341 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,341 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,341 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,348 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,348 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,348 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,348 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,349 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,349 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,349 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,349 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,540 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,540 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,540 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,540 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,542 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,542 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,542 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,542 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,555 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,555 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,555 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,555 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,559 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,559 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,559 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,559 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,633 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,633 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,633 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,633 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,634 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,634 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,634 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,634 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,645 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,645 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,645 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,645 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,648 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,648 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,648 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,648 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,691 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,691 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,691 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,691 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,691 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,696 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,696 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,696 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,696 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,696 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,697 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,697 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,697 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,697 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,697 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,697 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,697 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,697 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,697 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,697 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,698 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,698 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,698 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,698 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,698 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,700 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,700 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,700 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,700 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,700 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,723 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,723 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,723 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,723 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,723 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,726 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,726 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,726 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,726 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,726 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,730 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,730 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,730 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,730 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,730 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,731 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,731 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,731 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,731 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,731 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,768 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,768 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,768 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,768 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,768 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,774 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,774 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,774 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,774 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,774 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,784 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,784 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,784 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,784 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,784 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,785 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,785 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,785 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,785 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,785 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,804 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,804 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,804 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,804 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,804 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,804 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,805 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,805 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,805 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,805 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,805 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,805 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,806 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,806 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,806 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,806 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,806 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,806 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,831 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,831 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,831 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,831 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,831 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,831 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,833 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:08,857 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,857 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,857 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,857 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,857 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,857 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,861 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,861 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,861 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,861 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,861 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,861 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,866 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,866 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,866 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,866 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,866 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,866 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,868 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,868 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,868 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,868 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,868 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,868 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,904 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,904 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,904 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,904 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,905 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,905 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,904 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,905 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,905 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,905 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,905 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:08,906 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,906 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,906 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,906 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,906 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,906 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,907 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,907 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,907 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,907 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,907 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:08,907 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,932 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,935 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:09,936 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,936 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,936 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,936 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,936 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,937 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,936 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,936 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,937 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,937 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,937 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,937 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,937 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,937 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,952 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,955 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,955 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,955 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,955 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,955 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,955 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,955 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,957 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,957 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,957 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,957 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,957 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,957 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,957 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:09,996 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,000 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,000 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,000 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,000 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,000 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,000 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,000 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,001 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,001 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,001 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,001 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,001 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,001 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,001 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,222 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,224 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,237 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,240 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,255 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,262 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,280 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,281 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,316 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,317 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,339 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,340 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,359 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:10,363 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,917 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,919 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,920 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,922 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,923 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,929 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,955 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,956 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:19,969 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,015 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,016 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,017 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,018 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,045 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,049 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+tError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,055 - ERROR - Erro ao declarar o exchange logs: 'NoneType' object has no attribute 'exchange_declare'
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,051 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,056 - ERROR - Erro ao declarar e vincular as filas.
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,090 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,091 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,099 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,133 - ERROR - Erro ao conectar ao RabbitMQ: StreamLostError: ('Transport indicated EOF',)
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,137 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'
+2024-11-04 21:44:20,136 - ERROR - Erro ao enviar mensagem: 'NoneType' object has no attribute 'basic_publish'

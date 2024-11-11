@@ -15,7 +15,7 @@ export default async (req, resp, next) => {
         await server.start();
 
         if (!authorization) {
-            await server.publishInQueueLogs(status_rabbitmq.LOGS, 'SOLICITADO INFORMAÇÃO SEM O TOKEN DE ACESSO.', status_rabbitmq.NA)
+            await server.publishInQueueLogs(status_rabbitmq.logs_error, 'SOLICITADO INFORMAÇÃO SEM O TOKEN DE ACESSO.', status_rabbitmq.NA)
             throw new AuthException(http_status.UNAUTHORIZED, 'Access token wat not informed or is wrong')
         }
 
@@ -26,7 +26,7 @@ export default async (req, resp, next) => {
             req.authUser = decoded.authUser;
             return next();
         } catch (err) {
-            await server.publishInQueueLogs(status_rabbitmq.LOGS, 'TOKEN INVALIDO', 401)
+            await server.publishInQueueLogs(status_rabbitmq.logs_error, 'TOKEN INVALIDO', 401)
             console.error('Error verifying JWT: ', err.message)
             resp.status(401).json({
                 status: 401,
