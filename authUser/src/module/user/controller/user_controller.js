@@ -27,6 +27,10 @@ class UserController {
         return resp.status(user.status).json(user);
     }
 
+    checkIfUserIsOk = async(req, resp) => {
+        
+    }
+
     getAcessToken = async (req, resp) => {
         const { email } = req.body;
         await this.server.start();

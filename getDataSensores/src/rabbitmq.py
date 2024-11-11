@@ -114,8 +114,93 @@ class RabbitMQServer:
             self.connection.close()
             self.logger.info("Conexão com RabbitMQ encerrada com sucesso.")
 
+    def consumer2(self):
+        if self.connection is None or not self.connection:
+            self.connect()
+        try: 
+            self.channel.exchange_declare(
+                exchange='login',
+                exchange_type=ExchangeType.direct,
+                auto_delete=False,
+                durable=True
+            )
+            
+            self.channel.queue_declare(queue='auth_log', durable=True)
+            self.channel.queue_bind(exchange='login', queue='auth_log', routing_key='auth')
+            self.logger.info('Fila "auth_log" declarada e vinculada ao exchange "login" com chave de roteamento "auth"')
+            
+            def callback(ch, method, properties, body):
+                message = json.loads(body)
+                self.logger.info(f"Mensagem recebida: {message}")
+                print(f'Mensagem recebida: {message}')
+                ch.basic_ack(delivery_tag = method.delivery_tag)
+            
+            self.channel.basic_consume(queue='auth_log', on_message_callback=callback)
+            self.logger.info('Aguardando por mensagens na fila "auth_log"...')
+            self.channel.start_consuming()
+        except Exception as e:
+            self.logger.error(f"Erro ao consumir mensagens: {e}")
+            print(f"Erro ao consumir mensagens: {e}")
+            
+    def consumer(self) -> list:
+        listaMensagens = []
+        if self.connection is None or not self.connection:
+            self.connect()
+        
+        try:
+            self.channel.exchange_declare(
+                exchange='login',
+                exchange_type=ExchangeType.direct,
+                auto_delete=False,
+                durable=True
+            )
+            
+            self.channel.queue_declare(queue='auth_log', durable=True)
+            self.channel.queue_bind(exchange='login', queue='auth_log', routing_key='auth')
+            self.logger.info('Fila "auth_log" declarada e vinculada ao exchange "login" com chave de roteamento "auth"')
+
+            quantityMessageInQueue = self.get_message_count();
+            while quantityMessageInQueue != 0:
+                # Usando basic_get para pegar a mensagem uma vez
+                method_frame, header_frame, body = self.channel.basic_get(queue='auth_log', auto_ack=False)
+                
+                if method_frame:
+                    message = json.loads(body)
+                    self.logger.info(f"Mensagem recebida: {message}")
+                    listaMensagens.append(message)
+                    print(f'Mensagem recebida: {message}')
+                    
+                else:
+                    self.logger.info('Nenhuma mensagem na fila')
+                    print('Nenhuma mensagem na fila')
+                
+                quantityMessageInQueue = quantityMessageInQueue - 1
+        except Exception as e:
+            self.logger.error(f"Erro ao consumir mensagem: {e}")
+            print(f"Erro ao consumir mensagem: {e}")
+        finally:
+            return listaMensagens
+    
+    def get_message_count(self):
+        try:
+            queue = self.channel.queue_declare(queue='auth_log', passive=True)            
+            message_count = queue.method.message_count
+            self.logger.info(f"Existem {message_count} mensagens na fila 'auth_log'.")
+            print(f"Existem {message_count} mensagens na fila 'auth_log'.")
+            return message_count
+        except Exception as e:
+            self.logger.error(f"Erro ao obter o número de mensagens na fila: {e}")
+            print(f"Erro ao obter o número de mensagens na fila: {e}")
+            return 0
+
+        
+
+             
+    
 if __name__ == "__main__":
     rabbit_logger = RabbitMQServer()
-    rabbit_logger.publish_message('info', 'Mensagem de informacao 1', 200)
-    rabbit_logger.publish_message('error', 'Mensagem de error 3', 500)
+    rabbit_logger.consumer()
+    
     rabbit_logger.close_connection()
+    
+    

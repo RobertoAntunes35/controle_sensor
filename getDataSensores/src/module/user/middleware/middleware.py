@@ -4,7 +4,7 @@ import os
 import jwt 
 from src.module.user.serializer.response import ResposeApi
 import json 
-
+from src.rabbitmq import RabbitMQServer
 
 load_dotenv()
 class Middleware:
@@ -12,6 +12,7 @@ class Middleware:
     
     def __init__(self):
         self.request = request
+        self.rabbitmq = RabbitMQServer()
             
     def constructor(self) -> json:
         try:
@@ -26,7 +27,6 @@ class Middleware:
             return ResposeApi(401, "Token invalido").response('error'), False
         except Exception:
             return ResposeApi(500, "Token não encontrado ou invalido.").response('error'), False
-    
     
     
     def check_if_user_login(self) -> bool:
