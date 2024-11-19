@@ -48,23 +48,23 @@ services:
       DB_DATABASE: auth_user
       DB_PORT: 3306
 
-  # data-app:
-  #   depends_on:
-  #     mysqlDataSensor:
-  #       condition: service_healthy
-  #   build:
-  #     context: ./getDataSensores
-  #   container_name: data-sensores
-  #   ports:
-  #     - "5000:5000"  
-  #   environment:
-  #     DB_HOST: mysqlDataSensor
-  #     DB_USER: root
-  #     DB_PASSWORD: rootpassword
-  #     DB_DATABASE: data_sensores
-  #     DB_PORT: 3306
-  #     SECRET_KEY: efe51c25de46b5a9114c29b0dcbcf1c08fce94d8c0674853775d928a3da75095
-  #     MQTT_BROKER_URL: 192.168.0.111
+  data-app:
+    depends_on:
+      mysqlDataSensor:
+        condition: service_healthy
+    build:
+      context: ./getDataSensores
+    container_name: data-sensores
+    ports:
+      - "5000:5000"  
+    environment:
+      DB_HOST: mysqlDataSensor
+      DB_USER: root
+      DB_PASSWORD: rootpassword
+      DB_DATABASE: data_sensores
+      DB_PORT: 3306
+      SECRET_KEY: efe51c25de46b5a9114c29b0dcbcf1c08fce94d8c0674853775d928a3da75095
+      MQTT_BROKER_URL: 192.168.0.1
   
   react-app:
     build:
@@ -89,3 +89,19 @@ services:
         rabbitmq-plugins enable rabbitmq_web_stomp &&
         rabbitmq-server
       "
+  # mosquitto:
+  #   image: eclipse-mosquitto
+  #   container_name: mosquitto
+  #   ports:
+  #     - "1883:1883"
+  #     - "9001:9001" 
+  #   healthcheck:
+  #     test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+  #     interval: 10s
+  #     retries: 5
+  #     start_period: 30s 
+  #     timeout: 5s 
+  #   volumes:
+  #     - mosquitto_data:/mosquitto/data
+  #     - mosquitto_config:/mosquitto/config
+  #   restart: unless-stopped
