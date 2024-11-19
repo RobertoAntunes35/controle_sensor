@@ -3,8 +3,13 @@ FROM node:20.18.0
 WORKDIR /app
 
 COPY package.json package-lock.json ./
-RUN npm install
+
+RUN npm ci --omit=dev
+
+RUN npm rebuild bcrypt --build-from-source
 
 COPY . .
 
-CMD ["node", "app.js"]  # Substitua pelo seu arquivo de entrada
+EXPOSE 8080
+
+CMD ["node", "app.js"]

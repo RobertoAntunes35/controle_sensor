@@ -8,11 +8,13 @@ db_password = os.getenv('DB_PASSWORD')
 db_database = os.getenv('DB_DATABASE')
 db_host = os.getenv('DB_HOST')
 
+mqtt_broker = os.getenv('MQTT_BROKER_URL')
+
 
 URL_CONNECTION_MYSQL = f'mysql://{db_user}:{db_password}@{db_host}/{db_database}'
 
 class Config:
-    MQTT_BROKER_URL = '192.168.0.111'
+    MQTT_BROKER_URL = mqtt_broker
     MQTT_BROKER_PORT = 1883
     MQTT_USERNAME = ''
     MQTT_PASSWORD = ''

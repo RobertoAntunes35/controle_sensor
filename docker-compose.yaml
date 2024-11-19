@@ -1,0 +1,91 @@
+version: '3.8'
+
+services:
+
+  mysqlAuthUser:
+    image: mysql:8
+    container_name: mysql-db-dados-usuarios
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: auth_user
+    ports:
+      - "3308:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      retries: 5
+      start_period: 30s 
+      timeout: 5s
+
+  mysqlDataSensor:
+    image: mysql:8
+    container_name: mysql-db-dados-sensores
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: data_sensores
+    ports:
+      - "3307:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      retries: 5
+      start_period: 30s 
+      timeout: 5s    
+
+  node-app:
+    depends_on:
+      mysqlAuthUser:
+        condition: service_healthy
+    build:
+      context: ./authUser
+    container_name: auth-app
+    ports:
+      - "8080:8080"  
+    environment:
+      DB_HOST: mysqlAuthUser
+      DB_USER: root
+      DB_PASSWORD: rootpassword
+      DB_DATABASE: auth_user
+      DB_PORT: 3306
+
+  # data-app:
+  #   depends_on:
+  #     mysqlDataSensor:
+  #       condition: service_healthy
+  #   build:
+  #     context: ./getDataSensores
+  #   container_name: data-sensores
+  #   ports:
+  #     - "5000:5000"  
+  #   environment:
+  #     DB_HOST: mysqlDataSensor
+  #     DB_USER: root
+  #     DB_PASSWORD: rootpassword
+  #     DB_DATABASE: data_sensores
+  #     DB_PORT: 3306
+  #     SECRET_KEY: efe51c25de46b5a9114c29b0dcbcf1c08fce94d8c0674853775d928a3da75095
+  #     MQTT_BROKER_URL: 192.168.0.111
+  
+  react-app:
+    build:
+      context: ./exibicaoLogs
+    container_name: exibicao-logs
+    ports:
+      - "3000:3000"  
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: rabbitmq
+    ports:
+      - "15672:15672"   
+      - "5672:5672"  
+      - "15674:15674"   
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    command: >
+      bash -c "
+        rabbitmq-plugins enable rabbitmq_management &&
+        rabbitmq-plugins enable rabbitmq_web_stomp &&
+        rabbitmq-server
+      "

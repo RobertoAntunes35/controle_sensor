@@ -35,7 +35,7 @@ export default async (req, resp, next) => {
             return;
         }
     } catch (error) {
-        return resp.status(error.status).json({
+        return resp.status(error.status || http_status.INTERNAL_SERVER_ERROR).json({
             status: error.status ? error.status : http_status.INTERNAL_SERVER_ERROR,
             message: error.message
         })
