@@ -116,7 +116,7 @@ class SensorController:
                     message = f'Solicitacao realizada com sucesso para dados de Temperatura.'
                     
                 else:
-                    message = f'Erro ao realizar a requisicao para os dados de distancia. Error: {statusResponse.get('message', [])}'
+                    message = f"Erro ao realizar a requisicao para os dados de distancia. Error: {statusResponse.get('message', [])}"
                 
                 self.rabbitmq.publish_message('info', message, statusResponse.get('status', []))        
                 
@@ -136,7 +136,7 @@ class SensorController:
                     message = f'Solicitacao realizada com sucesso para dados de distancia.'
                     
                 else:
-                    message = f'Erro ao realizar a requisicao para os dados de distancia. Error: {statusResponse.get('message', [])}'
+                    message = f"Erro ao realizar a requisicao para os dados de distancia. Error: {statusResponse.get('message', [])}"
                     
                 self.rabbitmq.publish_message('info', message, statusResponse.get('status', []))        
                                 

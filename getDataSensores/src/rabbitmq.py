@@ -8,7 +8,7 @@ from datetime import datetime
 import json 
 
 class RabbitMQServer:
-    def __init__(self, host='localhost', username='guest', password='guest'):
+    def __init__(self, host='rabbitmq', username='guest', password='guest'):
         self.setup_logging()
         
         credentials = pika.PlainCredentials(username, password)

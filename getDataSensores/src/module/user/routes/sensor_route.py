@@ -6,10 +6,13 @@ routes = Blueprint("routes", __name__)
 
 @routes.route('/')
 def home():
-    Controller = SensorController()
-    return Controller.insertDataTemperatura()
+    return jsonify({
+        'service': "get-data",
+        'status': "Up",
+        'httpStatus': 200
+    })
 
-@routes.route('/insert-data/temperatura', methods=['POST'])
+@routes.route('/api/v1/insert-data/temperatura', methods=['POST'])
 def insert_data_temperatura() -> json:
     try:
         Controller = SensorController('http')
@@ -17,7 +20,7 @@ def insert_data_temperatura() -> json:
     except Exception as ex:
         return ResposeApi(500, ex, 'sensor_route.py')
     
-@routes.route('/insert-data/distancia', methods=['POST'])
+@routes.route('/api/v1/insert-data/distancia', methods=['POST'])
 def insert_data_unidade() -> json:
     try:
         Controller = SensorController('http')
@@ -25,7 +28,7 @@ def insert_data_unidade() -> json:
     except Exception as ex:
         return ResposeApi(500, ex, "sensor_route.py")
     
-@routes.route('/get-all-data/temperatura', methods=['GET'])
+@routes.route('/api/v1/get-all-data/temperatura', methods=['GET'])
 def get_all_data_temperatura() -> json:
     try:
         Controller = SensorController('http')
@@ -33,7 +36,7 @@ def get_all_data_temperatura() -> json:
     except Exception as ex:
         return ResposeApi(500, ex, "sensor_route.py")
     
-@routes.route('/get-all-data/distancia', methods=['GET'])
+@routes.route('/api/v1/get-all-data/distancia', methods=['GET'])
 def get_all_data_distancia() -> json:
     try:
         Controller = SensorController('http')

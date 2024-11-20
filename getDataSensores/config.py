@@ -9,7 +9,10 @@ db_database = os.getenv('DB_DATABASE')
 db_host = os.getenv('DB_HOST')
 
 mqtt_broker = os.getenv('MQTT_BROKER_URL')
-
+print(f'mqtt_broker: {mqtt_broker}')
+print(f'db_user: {mqtt_broker}')
+print(f'db_password: {mqtt_broker}')
+print(f'db_host: {mqtt_broker}')
 
 URL_CONNECTION_MYSQL = f'mysql://{db_user}:{db_password}@{db_host}/{db_database}'
 
