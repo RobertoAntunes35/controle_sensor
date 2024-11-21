@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import SockJS from "sockjs-client";
 import { Stomp, Client as StompClient } from "@stomp/stompjs";
 
+import { v4 as uuidv4 } from 'uuid';
 const LogViewer = ( {onAuthTokenReceived} ) => {
     const [logs, setLogs] = useState([]);
     const logContainerRef = useRef(null); // Ref para o container de logs
@@ -26,6 +27,8 @@ const LogViewer = ( {onAuthTokenReceived} ) => {
                         // Criando uma estrutura de log com base nos dados recebidos
                         const token = logData.token;
                         onAuthTokenReceived(token);
+
+                        console.log(message)
                     } catch (error) {
                         console.error("Erro ao parsear a mensagem:", error);
                     }
