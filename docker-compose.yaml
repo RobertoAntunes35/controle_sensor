@@ -89,3 +89,5 @@ services:
         rabbitmq-plugins enable rabbitmq_web_stomp &&
         rabbitmq-server
       "
+    volumes:
+      - /var/lib/rabbitmq

@@ -2,9 +2,10 @@ import React, { useEffect, useState, useRef } from "react";
 import SockJS from "sockjs-client";
 import { Stomp, Client as StompClient } from "@stomp/stompjs";
 
-const LogViewer = () => {
+const LogViewer = ( {onAuthTokenReceived} ) => {
     const [logs, setLogs] = useState([]);
     const logContainerRef = useRef(null); // Ref para o container de logs
+
 
     useEffect(() => {
         console.log("useEffect foi chamado!");
@@ -14,6 +15,26 @@ const LogViewer = () => {
 
         const onConnect = function() {
             console.log('Conectado');
+
+
+            client.subscribe('/exchange/login/auth', (message) => {
+                if (message.body) {
+                    try {
+                        // Parse da mensagem JSON
+                        const logData = JSON.parse(message.body);
+
+                        // Criando uma estrutura de log com base nos dados recebidos
+                        const token = logData.token;
+                        onAuthTokenReceived(token);
+                    } catch (error) {
+                        console.error("Erro ao parsear a mensagem:", error);
+                    }
+                    console.log(message.body);
+                    message.ack()
+                } else {
+                    console.log("SEM MENSAGEM");
+                }
+            })
 
             client.subscribe('/exchange/logs/info', (message) => {
                 if (message.body) {
@@ -36,6 +57,7 @@ const LogViewer = () => {
                         console.error("Erro ao parsear a mensagem:", error);
                     }
                     console.log(message.body);
+                    message.ack()
                 } else {
                     console.log("SEM MENSAGEM");
                 }
@@ -62,6 +84,7 @@ const LogViewer = () => {
                         console.error("Erro ao parsear a mensagem:", error);
                     }
                     console.log(message.body);
+                    message.ack()
                 } else {
                     console.log("SEM MENSAGEM");
                 }

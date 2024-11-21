@@ -4,8 +4,9 @@ from flask_mqtt import Mqtt
 from flask_socketio import SocketIO
 from src.module.user.model.sensores_model import db
 from src.module.user.routes.events_mqtt import *
-
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)
 app.config.from_object('config.Config')
 
 db.init_app(app)
