@@ -6,11 +6,12 @@ from pydantic import ValidationError
 from src.module.user.dto.dto_mqtt_input import RequestMQTT
 from src.module.user.controller.sensor_controller import SensorController
 import src.config.constant.status_rabbitmq as const_rabbit
+
 mqtt = Mqtt(app)
 
 @mqtt.on_connect()
 def handle_connect(client, userdata, flags, rc):
-    mqtt.subscribe('sensores/temperatura')
+    mqtt.subscribe('sensores/movimento')
     mqtt.subscribe('sensores/distancia')
     print('Conectado ao broker')
     
@@ -24,8 +25,8 @@ def handle_message(client, userdata, message):
             if request is None or request == None:
                 raise Exception('O valor para request não pode ser vazio.')
                 
-            # # topico sensor de temperatura
-            if message.topic == 'sensores/temperatura':
+            # # topico sensor de distancia
+            if message.topic == 'sensores/movimento':
                 Controller.insertDataTemperatura(request)
                 
             

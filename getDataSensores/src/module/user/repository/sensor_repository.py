@@ -98,5 +98,13 @@ class SensorRepository:
         finally:
             db.session.close()
             
+    def insertPassword(self, password: str):
+        from src.module.user.routes.events_mqtt import mqtt
+        try:
+            mqtt.publish('password', password)
+            return ResposeApi(200, "Password encaminhada com sucesso para o topico 'password'").response('status')
+
+        except Exception as ex:
+            return ResposeApi(500, ex, self.__class__.__name__).response('error')
         
       

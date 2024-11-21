@@ -7,7 +7,7 @@ from src.module.user.middleware.middleware import Middleware
 from src.module.user.repository.sensor_repository import SensorRepository
 import src.config.constant.status_rabbitmq as const_rabbit
 from src.rabbitmq import RabbitMQServer
-import json 
+import json
 
 
 load_dotenv()
@@ -145,6 +145,41 @@ class SensorController:
                 return ResposeApi(500, ex, self.__class__.__name__).response('error')
         return self.jsonData
 
+    def insertPassword(self, req):
+        if self.status:
+            data = None
+            try:
+                # para requisição através do mqtt
+                if self.type == 'mqtt':
+                    data = req
+                    
+                # para requisição http
+                elif self.type == 'http':
+                    data = json.loads(req.data)
 
-
-    
+                self.rabbitmq.publish_message('info', f'Solicitado encaminhamento de senha para liberacao atraves do protocolo: {self.type}', const_rabbit.NA)        
+                statusResponse, _ = self.Repository.insertPassword(password=data['password'])
+                
+                if isinstance(statusResponse, dict):
+                    checkResponse = statusResponse.get('status', [])
+                    checkMessage = statusResponse.get('message', [])
+                
+                else:
+                    checkResponse = statusResponse.status
+                    checkMessage = statusResponse.message
+                    
+                
+                if checkResponse == 200:
+                    message = f'Encaminhamento da senha realizado com sucesso atraves do protocolo:  {self.type}'
+                    
+                else:
+                    message = f'Erro ao encaminhar a senha atraves do protocolo: {self.type}. Error: {checkMessage}'
+                    
+                self.rabbitmq.publish_message('info', message, checkResponse)
+                
+                return statusResponse
+            except Exception as ex:
+                return ResposeApi(500, ex, self.__class__.__name__).response('error')
+            
+            
+        return self.jsonData

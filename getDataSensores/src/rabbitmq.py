@@ -7,6 +7,7 @@ import uuid
 from datetime import datetime
 import json 
 
+
 class RabbitMQServer:
     def __init__(self, host='rabbitmq', username='guest', password='guest'):
         self.setup_logging()
