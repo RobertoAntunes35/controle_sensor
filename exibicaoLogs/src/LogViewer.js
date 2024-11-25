@@ -11,7 +11,7 @@ const LogViewer = ( {onAuthTokenReceived} ) => {
     useEffect(() => {
         console.log("useEffect foi chamado!");
         const client = Stomp.over(function() {
-            return new WebSocket('ws://localhost:15674/ws');
+            return new WebSocket('ws://192.168.0.111:15674/ws');
         });
 
         const onConnect = function() {
