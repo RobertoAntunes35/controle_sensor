@@ -2,10 +2,9 @@ import React, { useEffect, useState, useRef } from "react";
 import SockJS from "sockjs-client";
 import { Stomp, Client as StompClient } from "@stomp/stompjs";
 
-import { v4 as uuidv4 } from 'uuid';
 const LogViewer = ( {onAuthTokenReceived} ) => {
     const [logs, setLogs] = useState([]);
-    const logContainerRef = useRef(null); // Ref para o container de logs
+    const logContainerRef = useRef(null);
 
 
     useEffect(() => {
@@ -21,10 +20,8 @@ const LogViewer = ( {onAuthTokenReceived} ) => {
             client.subscribe('/exchange/login/auth', (message) => {
                 if (message.body) {
                     try {
-                        // Parse da mensagem JSON
                         const logData = JSON.parse(message.body);
 
-                        // Criando uma estrutura de log com base nos dados recebidos
                         const token = logData.token;
                         onAuthTokenReceived(token);
 
